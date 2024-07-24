@@ -1,0 +1,104 @@
+body{
+    background-color:rgb(90, 87, 87);
+    text-align: center
+}
+
+p {
+    color:rgb(135, 177, 254);
+    margin: 0 20% 2% 20%;
+    font-family: sans-serif;
+    text-align: justify
+}
+
+ul{
+    color:rgb(231, 235, 244);
+    margin: 0 20% 2% 20%;
+    font-family: sans-serif;
+    text-align: justify
+}
+
+h1 {
+    color: rgb(247, 58, 58);
+    font-family: sans-serif;
+    text-align: center
+}
+
+h2 {
+    color:rgb(187, 134, 236);
+    font-family: sans-serif;
+    text-align: center
+}
+
+h3 {
+    color:rgb(221, 227, 48);
+    font-family: sans-serif;
+    text-align: center
+}
+
+div{
+    background-color:transparent;
+    font-family: sans-serif
+}
+
+form{
+    background-color:rgba(82, 124, 167, 0.794);
+    text-align: center;
+    margin: 0 20% 2% 20%;
+    border-radius: 8%
+}
+
+.PrimInputForm{
+    background-color:beige;
+    padding: 10px 6px 10px 6px;
+    width: 40%;
+    text-align: center;
+    font-family: sans-serif;
+    color: black
+}
+
+.SegInputForm{
+    background-color:beige;
+    padding: 10px 6px 10px 6px;
+    width: 20%;
+    text-align: center;
+    font-family: sans-serif;
+    color: black
+}
+
+.TerInputForm {
+    background-color: beige;
+    padding: 20px 6px 20px 6px;
+    width: 80%;
+    text-align: center;
+    font-family: sans-serif;
+    color: black
+}
+
+
+.CargaDocAutor{
+    background-color:darkgrey;
+    padding: 12px 8px 12px 8px;
+    width: 40%;
+    text-align: center;
+    font-family: sans-serif
+}
+
+.Submit{
+    background-color:darkorange;
+    padding: 10px 6px 10px 6px;
+    width: 18%;
+    text-align: center;
+    font-family: sans-serif;
+    color: black
+}
+
+.Enlaces {
+    background-color: ghostwhite;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 12px 6px 12px 6px;
+    width: 50%;
+    border-bottom: 8px solid rgb(247, 58, 58)
+}
+
+

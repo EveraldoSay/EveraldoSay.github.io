@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FORMULARIO</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/FORMULARIO/CSS/Estilos.css">
+        <script src="/FORMULARIO/JS/Validaciones.js"></script>
+    </head>
+    <body>
+        <h1>FORMULARIO PROYECTOS EMPRESA CONSTRUCTORA SEBAS</h1>
+
+        <div>
+            <ul>
+                <li>PARA DIGITAR EN LOS CAMPOS CONSIDERE LO SIGUIENTE:</li>
+                <li>SI el numero de proyecto ya existe la casilla se pondrá en color ROSADO, si NO cumple con la forma indicada o NO tiene los 9 digitos se pondrá en color ROJO, SI todo esta bien se pondrá en color VERDE</li>
+                <li>Las fechas deben ingresarse con numeros con el orden: dia/mes/año cuando este digitando y lo realiza incorrectamente la casilla se pondrá en color ROJO; si lo realiza correctamente sera color VERDE</li>
+                <li>SINO carga un documento PDF correspondiente a la autorizacion del proyecto, se le notificara que lo haga</li>
+                <li>VERIFIQUE LOS DATOS INGRESADOS ANTES DE ENVIAR EL FORMULARIO</li>
+    
+            </ul>
+        </div>
+        
+        <div id="mensajeEstado" style="color: red; font-weight: bold;">
+            <form>
+                <h3>Ingrese el numero de proyecto</h3>
+                <input id="NumProyecto" class="SegInputForm" type="text" placeholder="Ej: ABC-00001" oninput="Validaciones('NumProyecto')" required>
+                <h3>Ingrese la descripcion para el proyecto</h3>
+                <input id="DescripcionProy" class="TerInputForm" type="text" placeholder="Descripcion del Proyecto (Texto)" oninput="Validaciones('DescripcionProy')" required>
+                <h3>Ingrese la fecha de inicio para el proyecto</h3>
+                <input id="FechInicProy" class="SegInputForm" type="text" placeholder="DD/MM/AA (ej: 22/07/2024)" oninput="Validaciones('FechInicProy')" required>
+                <h3>Ingrese la fecha de finalizacion contemplada del proyecto</h3>
+                <input id="FechFinProy" class="SegInputForm" type="text" placeholder="DD/MM/AA (ej: 22/07/2024)" oninput="Validaciones('FechFinProy')" required>
+                <h3>Ingrese el costo del proyecto a realizar</h3>
+                <input id="CostoProy" class="SegInputForm" type="number" placeholder="Costo Proyecto (numero entero o decimal)" oninput="Validaciones('CostoProy')" required>
+                <h3>Ingrese el documento de autorizacion del proyecto</h3>
+                <input id="CargaDocAutor" class="CargaDocAutor" type="file" accept=".pdf" required>
+                <input class="Submit" type="submit">
+            </form>
+        </div>
+        <div>
+            <h2>REGRESAR A PAGINA PRINCIPAL</h2>
+            <a class="Enlaces" href="/FORMULARIO/index.html">RETORNAR A PAGINA PRINCIPAL</a>
+            <img src="/FORMULARIO/Imagenes/LogoEmpresaCOnstructoraSebas.png" alt="ImagenLogoUMG">
+        </div>
+    </body>
+</html>
